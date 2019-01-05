@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
     var sum = 0
     var sums = 0
     var frog = 0
@@ -26,7 +25,8 @@ class ViewController: UIViewController {
             TEXT1.text = "\(sumb)"
             frog = 2
         }
-        else{
+        else if frog == 0
+        {
             sum = Int(TEXT1.text!)!
             TEXT1.text = ""
             TEXT2.text = ""
@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         }
         if frog == 2
         {
-            
             if sumb < Int(18.4)
             {
                 TEXT2.text = "偏瘦"
